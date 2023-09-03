@@ -1,134 +1,91 @@
-
-@import url("https://fonts.googleapis.com/css2?family=Radio+Canada:wght@400;500;600;700&display=swap");
-
-body {
-    background-image: url("https://cdn.pixabay.com/photo/2018/03/17/19/36/connection-3234929_1280.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    font-family: "Radio Canada", sans-serif;
-  }
-  
-/* Enter your styling here */
-
+/* Header Styling */
 h1 {
   text-align: center;
-	color: orangered;
-	margin-bottom: -5px;
+  color: orangered;
+  font-size: 50px;
+  text-shadow: 2px 2px 3px #aaa; /* Add text shadow */
 }
 
+/* Box Styling */
 .ui {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 35px; /* Add margin for spacing */
 }
+
 .row {
-	display: flex;
+  display: flex;
 }
+
 .cell {
-	border: none;
-	width: 80px;
-	height: 80px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	font-size: 24px;
-	text-align: center;
-	cursor: pointer;
+  border: none;
+  width: 75px; /* Reduce cell width for better fit */
+  height: 75px; /* Reduce cell height for better fit */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px; /* Increase font size */
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px; /* Add rounded corners */
+  background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent white background */
+  color: #333; /* Darker text color */
+  text-shadow: 1px 1px 2px #ddd; /* Light text shadow */
 }
+
 .cell:active {
-	outline: none;
-}
-/* 3*3 Grid */
-#b1{
-  margin: 35px;
-	border-bottom: 1px solid gray;
-	border-right: 1px solid gray;
+  outline: none;
 }
 
-#b2 {
-  margin: 35px;
-	border-bottom: 1px solid gray;
-	border-right: 1px solid gray;
-	border-left: 1px solid gray;
+/* Result Container Styling */
+#result {
+  background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent white background */
+  border: 1px solid #333;
+  max-width: 200px;
+  margin: 20px auto;
+  padding: 10px;
+  text-align: center;
+  font-size: 25px;
+  color: #333; /* Dark text color */
+  text-shadow: 1px 1px 2px #ddd; /* Light text shadow */
 }
 
-#b3 {
-  margin: 35px;
-	border-bottom: 1px solid gray;
-	border-left: 1px solid gray;
-}
-
-#b4 {
-  margin: 35px;
-	border-top: 1px solid gray;
-	border-bottom: 1px solid gray;
-	border-right: 1px solid gray;
-}
-	
-#b5 {
-  margin: 35px;
-	border: 1px solid gray;
-}
-
-#b6 {
-  margin: 35px;
-	border-top: 1px solid gray;
-	border-bottom: 1px solid gray;
-	border-left: 1px solid gray;
-}
-
-#b7 {
-  margin: 35px;
-	border-top: 1px solid gray;
-	border-right: 1px solid gray;
-}
-
-#b8 {
-  margin: 35px;
-	border-top: 1px solid gray;
-	border-right: 1px solid gray;
-	border-left: 1px solid gray;
-}
-
-#b9 {
-  margin: 35px;
-	border-top: 1px solid gray;
-	border-left: 1px solid gray;
-}
-/* Reset Button */
+/* Reset Button Styling */
 #but {
-	box-sizing: border-box;
-	width: 95px;
-	height: 40px;
-	border: 1px solid dodgerblue;
-	margin-left: auto;
-	border-radius: 8px;
-	font-family: Verdana,
-		Geneva, Tahoma, sans-serif;
-
-	background-color: whitesmoke;
-	color: dodgerblue;
-	font-size: 20px;
-	cursor: pointer;
+  box-sizing: border-box;
+  width: 95px;
+  height: 40px;
+  border: 1px solid dodgerblue;
+  margin: 10px auto; /* Center the button */
+  border-radius: 8px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: whitesmoke;
+  color: dodgerblue;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
-/* Player turn space */
+#but:hover {
+  background-color: dodgerblue;
+  color: whitesmoke;
+}
+
+/* Player Turn Space Styling */
 #print {
-	font-family: Verdana,
-		Geneva, Tahoma, sans-serif;
-	color: dodgerblue;
-	font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: dodgerblue;
+  font-size: 20px;
 }
 
-/* Main Container */
+/* Main Container Styling */
 #main {
-	text-align: center;
+  text-align: center;
 }
 
-/* Game Instruction Text */
+/* Game Instruction Text Styling */
 #ins {
-	font-family: Verdana,Geneva,
-					Tahoma, sans-serif;
-	color: dodgerblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: dodgerblue;
 }
