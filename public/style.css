@@ -12,6 +12,7 @@ body {
 /* Enter your styling here */
 
 h1 {
+  text-align: center;
 	color: orangered;
 	margin-bottom: -5px;
 }
