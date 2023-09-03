@@ -47,14 +47,14 @@ h1 {
 }
 
 #b2 {
-  margin: 35px
+  margin: 35px;
 	border-bottom: 1px solid gray;
 	border-right: 1px solid gray;
 	border-left: 1px solid gray;
 }
 
 #b3 {
-  margin: 35px
+  margin: 35px;
 	border-bottom: 1px solid gray;
 	border-left: 1px solid gray;
 }
@@ -79,18 +79,20 @@ h1 {
 }
 
 #b7 {
-  margin: ;
+  margin: 35px;
 	border-top: 1px solid gray;
 	border-right: 1px solid gray;
 }
 
 #b8 {
+  margin: 35px;
 	border-top: 1px solid gray;
 	border-right: 1px solid gray;
 	border-left: 1px solid gray;
 }
 
 #b9 {
+  margin: 35px;
 	border-top: 1px solid gray;
 	border-left: 1px solid gray;
 }
