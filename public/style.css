@@ -16,9 +16,7 @@ h1 {
 	color: orangered;
 	margin-bottom: -5px;
 }
-p {
-	margin-bottom: -10px;
-}
+
 .ui {
 	display: flex;
 	flex-direction: column;
@@ -43,38 +41,45 @@ p {
 }
 /* 3*3 Grid */
 #b1{
+  margin: 35px;
 	border-bottom: 1px solid gray;
 	border-right: 1px solid gray;
 }
 
 #b2 {
+  margin: 35px
 	border-bottom: 1px solid gray;
 	border-right: 1px solid gray;
 	border-left: 1px solid gray;
 }
 
 #b3 {
+  margin: 35px
 	border-bottom: 1px solid gray;
 	border-left: 1px solid gray;
 }
 
 #b4 {
+  margin: 35px;
 	border-top: 1px solid gray;
 	border-bottom: 1px solid gray;
 	border-right: 1px solid gray;
 }
 	
 #b5 {
+  margin: 35px;
 	border: 1px solid gray;
 }
 
 #b6 {
+  margin: 35px;
 	border-top: 1px solid gray;
 	border-bottom: 1px solid gray;
 	border-left: 1px solid gray;
 }
 
 #b7 {
+  margin: ;
 	border-top: 1px solid gray;
 	border-right: 1px solid gray;
 }
